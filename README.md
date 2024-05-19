@@ -10,6 +10,8 @@ sh init_config.sh
 ## Rename project
 This method implemented sed. To rename golang project, Modify variable DEFAULT_PROJECT_NAME(old name) and NEW_PROJECT_NAME(new name) in the "rename_project.sh".
 
+Remarks. Please ensure that PROJECT_NAME is not in other part of code (Exact match sequence).
+
 ```
 sh rename_project.sh
 ```
