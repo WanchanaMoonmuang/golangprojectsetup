@@ -13,3 +13,9 @@ This method implemented sed. To rename golang project, Modify variable DEFAULT_P
 ```
 sh rename_project.sh
 ```
+
+## After Finish
+To proof that the code still work. This will call function from Greetings and print .env variable.
+```
+go run main.go
+```
